@@ -10,9 +10,4 @@
   height: 200px;
 }
 
-/* Style the grid items */
-.holder > * {
-  background-color: #ccc; /* Add a background color */
-  padding: 10px; /* Add some padding */
-}
 
