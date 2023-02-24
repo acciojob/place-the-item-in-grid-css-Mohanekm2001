@@ -1,8 +1,18 @@
 
 /* Your CSS Code here. */
-#holder {
+
+.holder {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
-  grid-template-rows: repeat(2, 200px);
-  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  grid-gap: 10px; 
+  width: 200px; 
+  height: 200px;
 }
+
+/* Style the grid items */
+.holder > * {
+  background-color: #ccc; /* Add a background color */
+  padding: 10px; /* Add some padding */
+}
+
